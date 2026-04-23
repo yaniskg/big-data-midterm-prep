@@ -16,13 +16,14 @@ Every concept the midterm can draw from, organized into 6 clusters (A–F). Each
 
 ### Cluster A — Foundations
 - **A1. Python/pandas/numpy fluency** *(Lecture 1 tutorial; Assignments 1–4)* — reading CSVs, filtering, `groupby`, `merge`, `apply`, boolean indexing, vectorized arithmetic, `pd.get_dummies`.
-- **A2. Visualization grammar** *(Lecture 1; Review slide 5)* — plot choice by data type:
-  | | 1 variable | 2 variables |
-  |---|---|---|
-  | Continuous | histogram | scatterplot |
-  | Categorical | bar chart | stacked bar |
-  | Mixed | — | boxplot |
-  Plus: axis labelling, choropleth via `geopandas`, line plot for time series.
+- **A2. Visualization grammar** *(Lecture 1; Review slide 5)* — plot choice by data type (table below). Plus axis labelling, choropleth via `geopandas`, line plot for time series.
+
+|              | 1 variable | 2 variables     |
+| ------------ | ---------- | --------------- |
+| Continuous   | histogram  | scatterplot     |
+| Categorical  | bar chart  | stacked bar     |
+| Mixed        | —          | boxplot         |
+
 - **A3. Probability background** *(Review slide 2; A3.1)*
     - **A3a. Bayes' rule** $p(\theta\mid d)=\tfrac{p(d\mid\theta)p(\theta)}{p(d)}$.
     - **A3b. Independence / product form** $p(y_1,\ldots,y_n\mid X,\beta)=\prod_i p(y_i\mid x_i,\beta)$.
@@ -87,10 +88,12 @@ Every concept the midterm can draw from, organized into 6 clusters (A–F). Each
 
 ### Cluster E — Classification Evaluation
 - **E1. Confusion matrix** at threshold $t$ — $\hat y_i=\mathbb 1(\hat p_i>t)$.
-    |  | Pred 0 | Pred 1 |
-    |---|---|---|
-    | Actual 0 | TN | FP |
-    | Actual 1 | FN | TP |
+
+|              | Pred 0 | Pred 1 |
+| ------------ | ------ | ------ |
+| Actual 0     | TN     | FP     |
+| Actual 1     | FN     | TP     |
+
 - **E2. Rates** — $n_P=TP+FN$, $n_N=TN+FP$.
     - **TPR = sensitivity = recall** $=TP/n_P$.
     - **TNR = specificity** $=TN/n_N$.
