@@ -9,7 +9,8 @@ Review material organized by concept cluster, plus a dense single-file cheat she
 
 | File | What it is | When to use |
 |------|------------|-------------|
-| [`MIDTERM_PREP.ipynb`](MIDTERM_PREP.ipynb) | **Single end-to-end prep notebook** — 113 cells, every concept taught from intuition → derivation → worked example → exercise → solution; includes a full simulated 50-point midterm with key | **The main event — work through it top to bottom** |
+| [`NARRATIVE.ipynb`](NARRATIVE.ipynb) | **Story-driven reading** — the *why* of every formula. Explains the historical arc from classical stats to Big Data, teaches how to read each equation semantically (what each symbol represents, what the operation does), and maps every idea back to exam archetypes | **Read once, slowly, to build intuition** |
+| [`MIDTERM_PREP.ipynb`](MIDTERM_PREP.ipynb) | **Single end-to-end prep notebook** — 113 cells, every concept taught from intuition → derivation → worked example → exercise → solution; includes a full simulated 50-point midterm with key | **Then work through it top to bottom for mechanics** |
 | [`CHEATSHEET.ipynb`](CHEATSHEET.ipynb) | One-file, hand-transcribable reference (all formulas, decision rules, derivation templates, exam traps) | The thing you bring to the exam |
 | [`SCAFFOLDING.md`](SCAFFOLDING.md) | Concept inventory + dependency graph mapping every slide / assignment / practice problem to the review notebooks | The blueprint / index |
 | [`00_exam_logistics.md`](00_exam_logistics.md) | Rules, format, pacing, what is and is not tested | Read once at the start |
