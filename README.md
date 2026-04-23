@@ -9,8 +9,9 @@ Review material organized by concept cluster, plus a dense single-file cheat she
 
 | File | What it is | When to use |
 |------|------------|-------------|
-| [`SCAFFOLDING.md`](SCAFFOLDING.md) | Concept inventory + dependency graph mapping every slide / assignment / practice problem to the review notebooks | Start here — it's the blueprint |
+| [`MIDTERM_PREP.ipynb`](MIDTERM_PREP.ipynb) | **Single end-to-end prep notebook** — 113 cells, every concept taught from intuition → derivation → worked example → exercise → solution; includes a full simulated 50-point midterm with key | **The main event — work through it top to bottom** |
 | [`CHEATSHEET.ipynb`](CHEATSHEET.ipynb) | One-file, hand-transcribable reference (all formulas, decision rules, derivation templates, exam traps) | The thing you bring to the exam |
+| [`SCAFFOLDING.md`](SCAFFOLDING.md) | Concept inventory + dependency graph mapping every slide / assignment / practice problem to the review notebooks | The blueprint / index |
 | [`00_exam_logistics.md`](00_exam_logistics.md) | Rules, format, pacing, what is and is not tested | Read once at the start |
 | [`01_foundations_and_likelihood.ipynb`](01_foundations_and_likelihood.ipynb) | Bayes rule, densities, likelihood → log → deviance, MLE=OLS | Prereq for everything else |
 | [`02_linear_regression_interpretation.ipynb`](02_linear_regression_interpretation.ipynb) | Four log/level coefficient interpretations, categorical & interaction mechanics, omitted-variable bias, R² | When you need to *read* a regression output |
@@ -23,10 +24,16 @@ Review material organized by concept cluster, plus a dense single-file cheat she
 
 ## How to use
 
+**Simplest path (4–6 hours total):**
+1. Work through `MIDTERM_PREP.ipynb` top to bottom — every derivation, every exercise, every solution. It's self-contained and teaches everything the exam can cover.
+2. Take the simulated exam in chapter 10 under timed conditions.
+3. Transcribe chapter 11 (dense review sheet) from `MIDTERM_PREP.ipynb` — or the equivalent `CHEATSHEET.ipynb` — onto paper.
+
+**Deeper path (if you want to drill one topic at a time):**
 1. Skim `SCAFFOLDING.md` to understand the concept graph.
-2. Work through notebooks 01 → 07 in order (each assumes the prior ones).
+2. Work through notebooks `01` → `07` in order (each is focused on one cluster).
 3. Take the capstone exam (`08`) under timed conditions.
-4. Transcribe `CHEATSHEET.ipynb` onto paper to bring into the exam.
+4. Transcribe `CHEATSHEET.ipynb` onto paper for the exam.
 
 ## Setup
 
